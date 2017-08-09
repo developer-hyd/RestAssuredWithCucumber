@@ -10,12 +10,12 @@ import org.apache.http.HttpStatus;
 import org.junit.Test;
 
 
-public class BookTests
+public class VersionTests
 {
 	private static String ENDPOINT_GET_BOOK_BY_ISBN = "http://localhost:9441/supplierportal/supplierprofile";
 
 	@Test
-	public void testGetByISBN(){
+	public void testGetSupplierProfile(){
 		String isbn = "isbn:9781451648546";
 
 		given().
